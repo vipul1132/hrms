@@ -20,13 +20,13 @@ public class Employee {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private Long id;
 
 	private String name;
 
-	private String Deparment;
+	private String department;
 
-	private Double Salary;
+	private Double salary;
 
-	private String Location;
+	private String location;
 }
